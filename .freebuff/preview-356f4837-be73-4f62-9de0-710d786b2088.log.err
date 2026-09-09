@@ -1,0 +1,10 @@
+[2m16:20:50[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate "href" attribute in JSX element[33m
+68 |              href={APK_URL}
+69 |              className="btn-sheen inline-flex items-center gap-2 rounded-full bg-rose-300 px-8 py-4 text-base font-sem...
+70 |              href={APK_URL}
+   |              ^
+71 |              download="dermasync-latest.apk">
+72 |              
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/landing/src/components/InstallGuide.jsx[39m
