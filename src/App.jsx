@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import TrustStrip from './components/TrustStrip.jsx'
@@ -23,6 +24,8 @@ export default function App() {
 
       {/* Film-grain overlay for a premium printed-paper feel */}
       <div aria-hidden="true" className="noise-overlay fixed inset-0 z-[60]" />
+      
+      <Analytics />
     </div>
   )
 }
